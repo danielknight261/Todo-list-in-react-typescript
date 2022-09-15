@@ -1,5 +1,5 @@
-import React from "react";
-import { ITask } from "../interface";
+import React from 'react';
+import { ITask } from '../interface';
 
 interface Props {
   task: ITask;
@@ -8,8 +8,8 @@ interface Props {
 
 const TodoTask = ({ task, completeTask }: Props) => {
   return (
-    <div className="task">
-      <div className="content">
+    <div className='task'>
+      <div className='content'>
         <span>{task.taskName}</span>
       </div>
       <button 
